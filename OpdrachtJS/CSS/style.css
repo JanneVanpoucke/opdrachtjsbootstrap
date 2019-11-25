@@ -1,0 +1,82 @@
+/**BEGIN GENERAL CLASSES**/
+.d-flex{
+    display: flex
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+/* centreren van kindjes binnen de parent */
+.justify-content-end {
+    justify-content: flex-end;
+}
+.justify-content-center {
+    justify-content: center;
+}
+/* Children centreren zichzelf tov de parent */
+.align-items-center {
+    align-items: center;
+}
+.w-25 {
+    width: 25%
+}
+.w-50 {
+    width: 50%
+}
+.w-75 {
+    width: 75%
+}
+
+/**EINDE GENERAL CLASSES**/
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+.btn{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+}
+.codeknop{
+    margin-left: 100px;
+
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-right: 100px;
+    background-color: darkred;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
